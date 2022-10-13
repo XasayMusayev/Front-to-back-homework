@@ -2,12 +2,11 @@
 
 namespace Front_to_back_homework.Controllers
 {
-    public class HomeController : Controller
+    public class AboutController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-        
     }
 }
